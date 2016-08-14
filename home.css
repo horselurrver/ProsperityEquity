@@ -1,0 +1,165 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+.parallax {
+    /* The image used */
+    background-image: url("house.jpg");
+    margin:0;
+    /* Set a specific height */
+    min-height: 700px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body, html{
+	margin: 0;
+	padding: 0;
+}
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+.navbar-right{
+	margin-right:30px;
+}
+.nav.navbar-nav.navbar-right li a{ /*links*/
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+.navbar-default .navbar-brand { /*brand*/
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+}
+.navbar-default .navbar-nav > li > a:hover{ /*Hover color for links*/
+    color:white;
+}
+.navbar-default .navbar-header > a:hover{ /*Hover color for brand*/
+    color:white;
+}
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+}
+html, body { height: 100%; }
+#container {
+  min-height: 100%;
+  margin-bottom: -100px;
+  position: relative;
+}
+#footer {
+  height: 100px;
+  position: relative;
+  background-color:black;
+  top: -26px;
+}
+.clearfooter {
+height: 100px;
+clear: both;
+}
+
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+ul.social-buttons {
+  text-align: center;
+  margin-top: 10px;
+  float: right;
+  margin-bottom: 30px;
+}
+
+ul.social-buttons li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+ul.social-buttons li a {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 60px;
+  color: white;
+}
+
+ul.social-buttons li a.brandico-twitter-bird {
+  background-color: #4099FF;
+}
+
+ul.social-buttons li a.brandico-facebook {
+  background-color: #3B5998;
+}
+
+ul.social-buttons li a.brandico-instagram {
+  background-color: #3f729b;
+}
+
+ul.social-buttons li a.brandico-vimeo {
+  background-color: #4EBBFF;
+}
+
+ul.social-buttons li a.brandico-linkedin {
+  background-color: #0e76a8;
+}
+
+/*Demo 1*/
+ul#demo1 li a {
+  transition: transform 0.2s linear;
+}
+
+ul#demo1 li:hover a {
+  transform: translateY(-10px);
+}
+.footer_tab{
+  background-color:black;
+  height: 20%;
+  empty-cells: show;
+}
+.footer_tab th{
+  font-family: 'Lato', sans-serif;
+  font-size:20px;
+  color:white;
+  text-align:right; 
+  vertical-align:middle;
+}
+.footer_tab td{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  color:#b3b3b3;
+  text-align:right; 
+  vertical-align:middle;
+}
+.section1{
+  width:622px;
+  height:700px;
+  background-image: url("house.jpg");
+  margin-left:0px;
+  margin-top: 0px;
+  margin-bottom:5px;
+  display:inline-block;
+  position: relative;
+  top: -18px;
+  text-align:center;
+}
+.section2{
+  width:621px;
+  height:700px;
+  background-image: url("house.jpg");
+  background-color: blue;
+  margin-left:0px;
+  margin-top: 0px;
+  margin-right:0px;
+  display:inline-block;
+  margin-bottom:5px;
+  position: relative;
+  top: -18px;
+  left:-0.1%;
+}
