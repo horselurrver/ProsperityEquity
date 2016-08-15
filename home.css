@@ -1,7 +1,7 @@
 @import url(https://weloveiconfonts.com/api/?family=brandico);
 .parallax {
     /* The image used */
-    background-image: url("house.jpg");
+    background-image: url("highrise.jpg");
     margin:0;
     /* Set a specific height */
     min-height: 700px;
@@ -27,11 +27,13 @@ body, html{
 .nav.navbar-nav.navbar-right li a{ /*links*/
     color: white;
     font-family: 'Lato', sans-serif;
+    text-shadow: 2px 3px black;
     font-size: 18px;
 }
 .navbar-default .navbar-brand { /*brand*/
     color: white;
     font-family: 'Cormorant Garamond', serif;
+    text-shadow: 2px 3px black;
     font-size: 25px;
 }
 .navbar-default .navbar-nav > li > a:hover{ /*Hover color for links*/
@@ -86,7 +88,7 @@ clear: both;
 .section1{
   width:622px;
   height:400px;
-  background-image: url("house.jpg");
+  background-image: url("house2.jpg");
   margin-left:0px;
   margin-top: 0px;
   margin-bottom:5px;
@@ -98,7 +100,7 @@ clear: both;
 .section2{
   width:621px;
   height:400px;
-  background-image: url("house.jpg");
+  background-image: url("house3.jpg");
   background-color: blue;
   margin-left:0px;
   margin-top: 0px;
