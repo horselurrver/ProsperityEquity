@@ -89,5 +89,23 @@ clear: both;
   color:white;
   background-color: black;
 }
+#share-buttons img {
+  width: 50px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+}
 
+.align{
+  display:inline;
+  position: relative;
+  left:80px;
+}
+h4{
+  color:white;
+  display:inline;
+  position:relative;
+  left:80px;
+}
 
