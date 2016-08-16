@@ -1,6 +1,6 @@
 .parallax {
     /* The image used */
-    background-image: url("highrise.jpg");
+    background-image: url("chicago.jpg");
     margin:0;
     /* Set a specific height */
     min-height: 700px;
@@ -26,13 +26,11 @@ body, html{
 .nav.navbar-nav.navbar-right li a{ /*links*/
     color: white;
     font-family: 'Lato', sans-serif;
-    text-shadow: 2px 3px black;
     font-size: 18px;
 }
 .navbar-default .navbar-brand { /*brand*/
     color: white;
     font-family: 'Cormorant Garamond', serif;
-    text-shadow: 2px 3px black;
     font-size: 25px;
 }
 .navbar-default .navbar-nav > li > a:hover{ /*Hover color for links*/
@@ -84,30 +82,12 @@ clear: both;
   padding-left:250px;
 
 }
-.section1{
-  width:622px;
-  height:400px;
-  background-image: url("house2.jpg");
-  margin-left:0px;
-  margin-top: 0px;
-  margin-bottom:5px;
-  display:inline-block;
-  position: relative;
-  top: -18px;
+.copyright{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
   text-align:center;
+  color:white;
+  background-color: black;
 }
-.section2{
-  width:621px;
-  height:400px;
-  background-image: url("house3.jpg");
-  background-color: blue;
-  margin-left:0px;
-  margin-top: 0px;
-  margin-right:0px;
-  display:inline-block;
-  margin-bottom:5px;
-  position: relative;
-  top: -18px;
-  left:-0.1%;
-}
+
 
